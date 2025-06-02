@@ -2,36 +2,58 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Galerie photo des interventions et réalisations du Garage Saada.">
-  <title>Galerie - Garage Saada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galerie photo des interventions et réalisations du Garage Saada." />
+  <meta name="keywords" content="galerie photo, garage, soudure, mécanique, lavage, Garage Saada" />
+  <meta name="author" content="Garage Saada" />
+  <title>Galerie – Garage Saada</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Barre de navigation -->
   <nav class="navbar">
-    <a href="index.html">Accueil</a>
-    <a href="services.html">Services</a>
-    <a href="galerie.html">Galerie</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html" class="nav-link">Accueil</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="galerie.html" class="nav-link active">Galerie</a>
+    <a href="avis.html" class="nav-link">Avis Clients</a>
+    <a href="contact.html" class="nav-link">Contact</a>
   </nav>
 
-  <header class="header">
-    <h1>Galerie</h1>
-    <p>Photos de nos réparations et entretiens</p>
+  <!-- En-tête de page -->
+  <header class="header header-galerie">
+    <h1>Galerie Photo</h1>
+    <p>Découvrez quelques-unes de nos réalisations et interventions.</p>
   </header>
 
-  <section class="gallery">
-    <div class="photo">
-      <img src="photo-garage.jpg" alt="Garage Saada" />
-      <p>Vue extérieure du garage</p>
+  <!-- Section Galerie -->
+  <section class="gallery-section">
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="photo-garage.jpg" alt="Façade du Garage" />
+        <p>Façade extérieure</p>
+      </div>
+      <!-- Exemple : ajoute d’autres images comme photo1.jpg, photo2.jpg, etc. -->
+      <!--
+      <div class="gallery-item">
+        <img src="photo1.jpg" alt="Réparation moteur" />
+        <p>Réparation moteur</p>
+      </div>
+      <div class="gallery-item">
+        <img src="photo2.jpg" alt="Soudure échappement" />
+        <p>Soudure échappement</p>
+      </div>
+      -->
     </div>
-    <!-- Ajoute d'autres images ici si nécessaire -->
   </section>
-  <meta name="description" content="Garage Saada à Meknès : Mécanique, soudure, lavage auto, réparations. Service rapide et professionnel.">
-<meta name="keywords" content="garage, mécanique, soudure, lavage auto, réparation voiture, Meknès, Garage Saada">
-<meta name="author" content="Garage Saada">
 
-  <footer>
+  <!-- Pied de page -->
+  <footer class="footer">
+    <div class="footer-socials">
+      <p>Suivez-nous :</p>
+      <a href="https://facebook.com/garage-saada" target="_blank">Facebook</a> |
+      <a href="https://instagram.com/garage-saada" target="_blank">Instagram</a> |
+      <a href="#" target="_blank">WhatsApp</a>
+    </div>
     <p>&copy; 2025 Garage Saada – Tous droits réservés.</p>
   </footer>
 </body>
