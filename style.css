@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #ffa500;
+}
+
+.hero, .header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #222;
+  color: white;
+}
+.hero-img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.presentation, .services-list, .contact-form, .gallery {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.services-list .service {
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form .btn {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.contact-form .btn:hover {
+  background: #ffa500;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.gallery .photo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
+}
