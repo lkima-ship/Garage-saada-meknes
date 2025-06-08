@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lkima-ship.github.io/Garage-saada-meknes/sitemap.xml
