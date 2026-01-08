@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta SEO optimisées -->
+    <title>Garage Saada Meknès - Soudure, Mécanique, Lavage Auto & Réparations</title>
+    <meta name="description" content="Garage Saada à Meknès : Expert en soudure, mécanique générale, réparations auto, lavage, vidange et stockage sécurisé. Devis gratuit au 0645 18 00 36.">
+    <meta name="keywords" content="garage Meknès, soudure Meknès, mécanique auto, réparation moteur, lavage auto, vidange, carrosserie, fer forgé, fabrication pièces, stockage voiture">
+    <meta name="author" content="Garage Saada">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="MA-MEK">
+    <meta name="geo.placename" content="Meknès">
+    <meta name="geo.position" content="33.8938;-5.5475">
+    <meta name="ICBM" content="33.8938, -5.5475">
+    
+    <!-- Vérification Google Search Console -->
+    <meta name="google-site-verification" content="mUdeAu8oZm8KHdRAFzMFjAWkufSTP14ElNFFzHs47_A">
+    
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Garage Saada - Expert Mécanique & Soudure à Meknès">
+    <meta property="og:description" content="Soudure, mécanique, lavage auto, réparations et stockage sécurisé. Contact : 0645 18 00 36">
+    <meta property="og:image" content="https://lkima-ship.github.io/Ferforgersoudure-/photo-garage.jpg">
+    <meta property="og:url" content="https://lkima-ship.github.io/Ferforgersoudure-/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Garage Saada Meknès - Mécanique & Soudure">
+    <meta name="twitter:description" content="Votre garage expert à Meknès pour toutes réparations auto">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Styles temporaires pour la mise en page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .navbar {
+            background-color: #2c3e50;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-link:hover {
+            background-color: #34495e;
+        }
+        
+        .hero {
+            position: relative;
+            height: 70vh;
+            overflow: hidden;
+        }
+        
+        .hero-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            width: 90%;
+            max-width: 800px;
+        }
+        
+        .hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: white;
+            color: #333;
+        }
+        
+        .presentation {
+            padding: 4rem 2rem;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .presentation h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .presentation p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .presentation a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .footer-socials {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-socials a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .footer-socials a:hover {
+            color: #e74c3c;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero-text p {
+                font-size: 1rem;
+            }
+            
+            .btn {
+                display: block;
+                margin: 10px auto;
+                max-width: 250px;
+            }
+            
+            .navbar {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation améliorée -->
+    <nav class="navbar" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link active">
+            <i class="fas fa-home"></i> Accueil
+        </a>
+        <a href="services.html" class="nav-link">
+            <i class="fas fa-tools"></i> Services
+        </a>
+        <a href="galerie.html" class="nav-link">
+            <i class="fas fa-images"></i> Galerie
+        </a>
+        <a href="avis.html" class="nav-link">
+            <i class="fas fa-star"></i> Avis Clients
+        </a>
+        <a href="contact.html" class="nav-link">
+            <i class="fas fa-phone-alt"></i> Contact
+        </a>
+    </nav>
+
+    <!-- Section Hero améliorée -->
+    <header class="hero" role="banner">
+        <div class="hero-overlay"></div>
+        <img src="photo-garage.jpg" alt="Garage Saada à Meknès - Atelier de mécanique et soudure professionnel" class="hero-img" loading="eager">
+        <div class="hero-text">
+            <h1>Garage Saada</h1>
+            <p>Votre expert en soudure, mécanique, lavage auto & réparations à Meknès</p>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary">
+                    <i class="fas fa-tools"></i> Découvrir nos services
+                </a>
+                <a href="tel:0645180036" class="btn btn-secondary">
+                    <i class="fas fa-phone-alt"></i> Appeler maintenant
+                </a>
+            </div>
+            <div class="hero-info">
+                <p><i class="fas fa-clock"></i> Ouvert du lundi au samedi : 8h00 - 19h00</p>
+                <p><i class="fas fa-map-marker-alt"></i> Meknès, Maroc</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Présentation améliorée -->
+    <main class="presentation">
+        <h2>Bienvenue chez Garage Saada</h2>
+        <p>
+            Situé à <strong>Meknès</strong>, nous mettons notre <strong>savoir-faire</strong> et notre <strong>expérience</strong> à votre service pour tous vos besoins automobiles. 
+            Notre équipe d'experts vous accompagne avec professionnalisme et réactivité.
+        </p>
+        <p>
+            Forts de nombreuses années d'expérience, nous garantissons un travail de <strong>qualité</strong>, des <strong>pièces adaptées</strong> 
+            et des conseils personnalisés pour l'entretien et la réparation de votre véhicule.
+        </p>
+        <p>
+            <strong>Contactez-nous au <a href="tel:0645180036">06 45 18 00 36</a> pour un diagnostic gratuit et un devis personnalisé.</strong>
+        </p>
+        
+        <div class="presentation-features">
+            <div class="feature">
+                <i class="fas fa-certificate"></i>
+                <h3>Qualité Garantie</h3>
+                <p>Matériaux de première qualité et finitions soignées</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Équipe Experte</h3>
+                <p>Professionnels formés et expérimentés</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Garantie Travaux</h3>
+                <p>Toutes nos interventions sont garanties</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Nouvelle section Services rapides -->
+    <section class="quick-services">
+        <h2><i class="fas fa-cogs"></i> Nos Principaux Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i class="fas fa-wrench"></i>
+                <h3>Mécanique Générale</h3>
+                <p>Réparation moteur, freinage, suspension, embrayage</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-fire"></i>
+                <h3>Soudure & Ferronnerie</h3>
+                <p>Fabrication et réparation de pièces métalliques</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-car"></i>
+                <h3>Lavage Auto</h3>
+                <p>Nettoyage intérieur et extérieur professionnel</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-oil-can"></i>
+                <h3>Vidange & Entretien</h3>
+                <p>Vidange, filtres, révisions périodiques</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page amélioré -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Garage Saada</h3>
+                <p>Expert en mécanique, soudure et réparations auto à Meknès</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Rapide</h3>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:0645180036">06 45 18 00 36</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Meknès, Maroc</p>
+                <p><i class="fas fa-clock"></i> Lun-Sam : 8h-19h</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="footer-socials">
+                    <a href="https://facebook.com/garage-saada" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/garage-saada" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/212645180036" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Garage Saada – Tous droits réservés. | Site optimisé pour Meknès et sa région</p>
+            <p class="footer-legal">
+                <a href="mentions-legales.html">Mentions légales</a> | 
+                <a href="politique-confidentialite.html">Politique de confidentialité</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bouton WhatsApp flottant -->
+    <a href="https://wa.me/212645180036" class="whatsapp-float" target="_blank" aria-label="Contact WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span>Contact WhatsApp</span>
+    </a>
+
+    <script>
+        // Script pour améliorer l'interactivité
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ajouter une classe active à la navigation
+            const currentPage = window.location.pathname.split('/').pop();
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+            
+            // Animation pour les éléments de service
+            const serviceItems = document.querySelectorAll('.service-item');
+            serviceItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+            
+            // WhatsApp avec message prédéfini
+            const whatsappBtn = document.querySelector('.whatsapp-float');
+            whatsappBtn.href = `https://wa.me/212645180036?text=${encodeURIComponent("Bonjour Garage Saada, je souhaite obtenir un devis pour...")}`;
+        });
+    </script>
+    
+    <style>
+        /* Styles supplémentaires */
+        .hero-info {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .hero-info i {
+            margin-right: 8px;
+        }
+        
+        .presentation-features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            width: 200px;
+        }
+        
+        .feature i {
+            font-size: 2rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+        
+        .quick-services {
+            background: #f8f9fa;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .quick-services h2 {
+            color: #2c3e50;
+            margin-bottom: 3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        
+        .service-item i {
+            font-size: 2.5rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        
+        .service-item h3 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #ecf0f1;
+        }
+        
+        .footer-section a {
+            color: #bdc3c7;
+            text-decoration: none;
+        }
+        
+        .footer-section a:hover {
+            color: #e74c3c;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #34495e;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .footer-legal a {
+            color: #bdc3c7;
+            margin: 0 10px;
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background-color: #25d366;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .whatsapp-float span {
+                display: none;
+            }
+            
+            .whatsapp-float {
+                padding: 15px;
+            }
+            
+            .presentation-features {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .feature {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</body>
+</html>
